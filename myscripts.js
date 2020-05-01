@@ -30,7 +30,7 @@ zingchart.MODULESDIR ='https://cdn.zingchart.com/modules/';
 
             
             //all sectors of 'sectors' array are reduced to a single paragraph and stored into 'para' (by using reduce function)
-            //total number of words in 'para' = 873 (except '&')
+            //total number of words in 'para' = 873 (except '&', I ignored '&')
             //total number of words counted from chart is also 873 
             //1+4+19+2+14+38+17+1+2+9+19+49+525+56+15+15+9+9+39+18+2+3+5+2= 873
             let para = sectors.reduce(myFunction2);
